@@ -1,8 +1,8 @@
 package factory_method;
 
 public abstract class Map {
-    protected int rows= 5;
-    protected int columns= 5;
+    protected int rows= 6;
+    protected int columns= 6;
     protected Tile[][] tiles = new Tile[rows][columns];
 
     public abstract Tile createTile();
